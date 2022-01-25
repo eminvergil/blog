@@ -9,7 +9,7 @@ const config = {
   title: "Emin Vergil's blog",
   tagline: "",
   url: "https://eminvergil.github.io",
-  baseUrl: "/blog/",
+  baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
