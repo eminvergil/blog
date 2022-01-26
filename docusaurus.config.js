@@ -113,7 +113,10 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-  plugins: [require.resolve("@cmfcmf/docusaurus-search-local")],
+  plugins: [
+    "docusaurus-tailwindcss",
+    // require.resolve("@cmfcmf/docusaurus-search-local"),
+  ],
 };
 
 module.exports = config;
