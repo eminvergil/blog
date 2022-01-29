@@ -24,7 +24,7 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`/etc/home`}
+      title="Home"
       description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />
