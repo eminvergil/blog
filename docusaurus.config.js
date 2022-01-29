@@ -58,7 +58,7 @@ const config = {
     // use default color dark mode
     // disableSwitch to true
     disableSwitch: true,
-    defaultMode: "dark",
+    defaultDarkMode: true,
     respectPrefersColorScheme: false,
   },
   plugins: [
