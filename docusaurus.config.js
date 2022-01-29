@@ -57,9 +57,14 @@ const config = {
     },
     // use default color dark mode
     // disableSwitch to true
-    disableSwitch: true,
-    defaultDarkMode: true,
-    respectPrefersColorScheme: false,
+    colorMode: {
+      disableSwitch: true,
+      defaultMode: "dark",
+    },
+    prism: {
+      theme: require("prism-react-renderer/themes/github"),
+      darkTheme: require("prism-react-renderer/themes/dracula"),
+    },
   },
   plugins: [
     "docusaurus-tailwindcss",
